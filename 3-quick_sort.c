@@ -5,6 +5,7 @@
  * @array: array to sort
  * @low: smallest index
  * @high: highest index
+ * @size: array size
  * Return: next index
  */
 int partition(int *array, int low, int high, size_t size)
@@ -34,6 +35,7 @@ int partition(int *array, int low, int high, size_t size)
  * @array: array to sort
  * @low: lowest index
  * @high: highest index
+ * @size: array size
  */
 void sort(int *array, int low, int high, size_t size)
 {
