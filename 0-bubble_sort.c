@@ -1,7 +1,6 @@
 #include "sort.h"
 /**
  * bubble_sort - Sorts array
- *
  * @array: array to sort
  * @size: size of array
  */
