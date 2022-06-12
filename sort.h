@@ -20,7 +20,6 @@ typedef struct listint_s
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-void swap_ints(int *a, int *b);
 int partition(int *array, int low, int high, size_t size);
 void sort(int *array, int low, int high, size_t size);
 
